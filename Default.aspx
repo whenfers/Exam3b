@@ -69,6 +69,7 @@
         </p>
         <p>
             <asp:Label ID="lb_respon4" runat="server" Text="<%$ Resources:Resource, Respon4 %>"></asp:Label>
+&nbsp;<asp:HyperLink ID="hl_github" runat="server" NavigateUrl="https://github.com/whenfers">GitHub</asp:HyperLink>
         </p>
         <p>
             &nbsp;</p>

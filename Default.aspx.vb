@@ -30,6 +30,7 @@ Partial Class _Default
         lb_currency.Visible = False
         lb_responname.Visible = False
         lb_date.Visible = False
+        hl_github.Visible = False
 
     End Sub
 
@@ -54,6 +55,7 @@ Partial Class _Default
         lb_responname.Visible = True
         lb_date.Visible = True
         lb_currency.Visible = True
+        hl_github.Visible = True
 
         lb_date.Text = Calendar1.SelectedDate.ToShortDateString()
 
