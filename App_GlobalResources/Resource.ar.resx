@@ -142,7 +142,16 @@
     <value>اسمي هو:</value>
   </data>
   <data name="Respon1" xml:space="preserve">
-    <value>آمل أن يكون لديك يوم عظيم عند التخرج على التاريخ!</value>
+    <value>آمل أن يكون لديك يوم عظيم عند التخرج على</value>
+  </data>
+  <data name="Respon2" xml:space="preserve">
+    <value>أتمنى لكم التوفيق في حياتك المهنية بعد التخرج. آمل أن تتمكن من كسب</value>
+  </data>
+  <data name="Respon3" xml:space="preserve">
+    <value>كما راتبا في أول وظيفة الخاص بك!</value>
+  </data>
+  <data name="Respon4" xml:space="preserve">
+    <value>يرجى زيارة لي على:</value>
   </data>
   <data name="Software" xml:space="preserve">
     <value>تصميم وتطوير البرمجيات</value>

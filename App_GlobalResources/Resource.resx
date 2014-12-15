@@ -142,7 +142,16 @@
     <value>My name is:</value>
   </data>
   <data name="Respon1" xml:space="preserve">
-    <value>I hope you have a great day when you graduate on DATE!</value>
+    <value>I hope you have a great day when you graduate on </value>
+  </data>
+  <data name="Respon2" xml:space="preserve">
+    <value>I wish you well in your career after graduation. I hope you can earn</value>
+  </data>
+  <data name="Respon3" xml:space="preserve">
+    <value>as a salary in your first job!</value>
+  </data>
+  <data name="Respon4" xml:space="preserve">
+    <value>Please visit me on:</value>
   </data>
   <data name="Software" xml:space="preserve">
     <value>Software Design and Development</value>
