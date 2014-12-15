@@ -141,6 +141,9 @@
   <data name="Name" xml:space="preserve">
     <value>My name is:</value>
   </data>
+  <data name="Plan" xml:space="preserve">
+    <value>I plan to graduate on:</value>
+  </data>
   <data name="Respon1" xml:space="preserve">
     <value>I hope you have a great day when you graduate on </value>
   </data>

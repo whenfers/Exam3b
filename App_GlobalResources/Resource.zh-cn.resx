@@ -141,6 +141,9 @@
   <data name="Name" xml:space="preserve">
     <value>我的名字是：</value>
   </data>
+  <data name="Plan" xml:space="preserve">
+    <value>我打算毕业的时间：</value>
+  </data>
   <data name="Respon1" xml:space="preserve">
     <value>我希望你有一个伟大的日子，当你毕业的</value>
   </data>

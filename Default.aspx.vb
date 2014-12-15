@@ -6,8 +6,7 @@ Partial Class _Default
 
     Private Property OnSelectedIndexChanged As Object
 
-
-
+  
     Protected Overrides Sub InitializeCulture()
         Dim lang As String = Request("Language1")
    
@@ -32,6 +31,8 @@ Partial Class _Default
         lb_date.Visible = False
         hl_github.Visible = False
 
+
+
     End Sub
 
     Protected Sub b_submit_Click(sender As Object, e As EventArgs) Handles b_submit.Click
@@ -50,12 +51,13 @@ Partial Class _Default
         lb_respon4.Visible = True
         lb_Mr.Visible = True
         lb_Ms.Visible = True
-        Language1.Visible = False
-        lb_selectlang.Visible = False
+        Language1.Visible = True
+        lb_selectlang.Visible = True
         lb_responname.Visible = True
         lb_date.Visible = True
         lb_currency.Visible = True
         hl_github.Visible = True
+        lb_plan.Visible = False
 
         lb_date.Text = Calendar1.SelectedDate.ToShortDateString()
 
@@ -66,12 +68,57 @@ Partial Class _Default
         name = tb_name.Text
         If cb_male.Checked Then
             lb_Ms.Text = ""
+            cb_female.Checked = False
             lb_responname.Text = name
-        Else
+        ElseIf cb_female.Checked Then
             lb_Mr.Text = ""
             lb_responname.Text = name
+            cb_male.Checked = False
         End If
 
     End Sub
 
+
+
+    Protected Sub Language1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Language1.SelectedIndexChanged
+        lb_name.Visible = False
+        tb_name.Visible = False
+        lb_gender.Visible = False
+        cb_male.Visible = False
+        cb_female.Visible = False
+        Calendar1.Visible = False
+        lb_gradua.Visible = False
+        tb_salary.Visible = False
+        b_submit.Visible = False
+        lb_respon1.Visible = True
+        lb_respon2.Visible = True
+        lb_respon3.Visible = True
+        lb_respon4.Visible = True
+        lb_Mr.Visible = True
+        lb_Ms.Visible = True
+        Language1.Visible = True
+        lb_selectlang.Visible = True
+        lb_responname.Visible = True
+        lb_date.Visible = True
+        lb_currency.Visible = True
+        hl_github.Visible = True
+        lb_plan.Visible = False
+
+        lb_date.Text = Calendar1.SelectedDate.ToShortDateString()
+
+        Dim money As Decimal = tb_salary.Text
+        lb_currency.Text = String.Format("{0:c}", money)
+
+        Dim name As String
+        name = tb_name.Text
+        If cb_male.Checked Then
+            lb_Ms.Text = ""
+            cb_female.Checked = False
+            lb_responname.Text = name
+        ElseIf cb_female.Checked Then
+            lb_Mr.Text = ""
+            lb_responname.Text = name
+            cb_male.Checked = False
+        End If
+    End Sub
 End Class

@@ -141,6 +141,9 @@
   <data name="Name" xml:space="preserve">
     <value>اسمي هو:</value>
   </data>
+  <data name="Plan" xml:space="preserve">
+    <value>أخطط لتخريج على:</value>
+  </data>
   <data name="Respon1" xml:space="preserve">
     <value>آمل أن يكون لديك يوم عظيم عند التخرج على</value>
   </data>
